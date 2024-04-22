@@ -1,47 +1,31 @@
 <!DOCTYPE html>
 
+<!DOCTYPE html>
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
-
-	<style type="text/css">
-		.f2{
-			left:50%;
-			top:50%;
-    width:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.f1{
-	left:50%;
-			top:50%;
-    background:lightblue;
-    width:200px;
-    height:200px;
-    border:2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:purple;
-}
-	</style>
+    <style>
+        #box {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            background-color: lightblue;
+            transform: translate(-50%, -50%);
+        }
+        #text {
+            color: purple;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-	<div class="f2">
-
-	<div class="f2" >
-		<h1 class="f1">This is center.</h1>
-	</div>
-
-		</div>
-
+    <div id="box">
+        <p id="text">This is center.</p>
+    </div>
 </body>
-
 </html>

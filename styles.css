@@ -1,1 +1,46 @@
 /*  your css code here. If applicable */
+/* <html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+
+	<style type="text/css">
+		.f2{
+			left:50%;
+			top:50%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f1{
+	left:50%;
+			top:50%;
+    background:lightblue;
+    width:200px;
+    height:200px;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:purple;
+}
+	</style>
+</head>
+
+<body>
+	<!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js">
+</script>
+
+	<div class="f2">
+
+	<div class="f2" >
+		<h1 class="f1">This is center.</h1>
+	</div>
+
+		</div>
+
+</body>
+
+</html> */
